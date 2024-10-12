@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import { ThemeProvider } from '@/components/theme-provider'
 import { TextSizeProvider } from '@/components/textSize-provider'
 import WidgetCTA from '@/components/WidgetCTA'
+import './index.css'
 
 const inter = Montserrat({ subsets: ['latin'] })
 

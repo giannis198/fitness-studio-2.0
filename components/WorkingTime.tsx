@@ -24,7 +24,9 @@ const WorkingTime = () => {
 
   return (
     <section className='px-[5%] py-16 md:py-24 lg:py-28'>
-      <p className='text-md mb-2 font-bold leading-[1.4] md:text-xl'>Ωραριο</p>
+      <p className='text-md mb-2 font-bold tracking-widest md:text-xl'>
+        Ωράριο
+      </p>
       <Accordion
         type='single'
         collapsible
@@ -41,7 +43,7 @@ const WorkingTime = () => {
             <Day day='Τετάρτη' hour='08:00 - 22:30' />
             <Day day='Πέμπτη' hour='08:00 - 22:30' />
             <Day day='Παρασκευή' hour='08:00 - 22:30' />
-            <Day day='Σάββατο' hour='10:00 - 15:00' />
+            <Day day='Σάββατο' hour='10:00 - 17:00' />
             <Day day='Κυριακή' hour='Κλειστά' />
           </AccordionContent>
         </AccordionItem>

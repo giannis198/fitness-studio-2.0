@@ -15,7 +15,7 @@ const openingHours: OpeningHours = {
   3: { open: [8, 0], close: [22, 30] }, // Wednesday
   4: { open: [8, 0], close: [22, 30] }, // Thursday
   5: { open: [8, 0], close: [22, 30] }, // Friday
-  6: { open: [10, 0], close: [15, 0] } // Saturday
+  6: { open: [10, 0], close: [17, 0] } // Saturday
 }
 
 export const isOpenNow = () => {

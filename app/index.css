@@ -35,3 +35,7 @@
   display: grid;
   grid-template-columns: inherit;
 }
+
+.color-w {
+  color: blue;
+}

@@ -8,6 +8,7 @@ import { ThemeProvider } from '@/components/theme-provider'
 import { TextSizeProvider } from '@/components/textSize-provider'
 import WidgetCTA from '@/components/WidgetCTA'
 import './index.css'
+import { Analytics } from '@vercel/analytics/next'
 
 const inter = Montserrat({ subsets: ['latin'] })
 
@@ -37,7 +38,10 @@ export default function RootLayout({
           >
             <div className='flex flex-grow flex-col justify-between'>
               <Navbar />
-              <main className='flex-1 overflow-x-hidden'>{children}</main>
+              <main className='flex-1 overflow-x-hidden'>
+                {children}
+                <Analytics />
+              </main>
               <Widget />
               <WidgetCTA />
               <Footer />

@@ -15,6 +15,7 @@
 
 # production
 /build
+/AG
 
 # misc
 .DS_Store

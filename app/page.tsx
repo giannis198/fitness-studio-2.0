@@ -1,47 +1,47 @@
 import About from '@/components/About'
-import Contact from '@/components/Contact'
 import Classes from '@/components/Classes'
-
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import WorkingTime from '@/components/WorkingTime'
-
 import { Separator } from '@/components/ui/separator'
-import Carouzel from '@/components/Carouzel'
-import Location from '@/components/Location'
-import CTA from '@/components/CTA'
-import Link from 'next/link'
-import Header36 from '@/components/Header36'
+import Hero from '@/components/Hero'
+import Gallery from '@/components/Gallery'
+import CoreValues from '@/components/CoreValues'
 import { Contact14 } from '@/components/Contact14'
 
 const HomePage = () => {
   return (
-    <section>
-      <div className=' space-y-5 '>
-        {/* <Link href='/'>
-          <div className='flex items-center gap-4'>
-            <Avatar className='h-16 w-16 p-0'>
-              <AvatarImage src='aw-image-700.webp' className='object-cover' />
-              <AvatarFallback>EF</AvatarFallback>
-            </Avatar>
-
-            <h1 className='text-2xl '>Essential Fitness</h1>
-          </div>
-        </Link> */}
-
-        {/* <Carouzel /> */}
-        <Header36 />
-        <div className='space-y-4 md:hidden'>
-          <WorkingTime />
-          {/* <CTA /> */}
+    <section id="top" className="flex flex-col gap-10 pb-20">
+      <Hero />
+      
+      <div className="container mx-auto space-y-8 px-4 md:px-8">
+        <div id="about" className="scroll-mt-32">
           <About />
         </div>
 
-        <div className=' '>
-          <Separator />
-          <div className='mt-4 space-y-4'>
-            <Classes />
-            <Contact14 />
-          </div>
+        <div id="gallery" className="scroll-mt-32">
+          <Gallery />
+        </div>
+
+        <div id="values" className="scroll-mt-32">
+          <CoreValues />
+        </div>
+
+        <div className="md:hidden">
+          <WorkingTime />
+        </div>
+
+        {/* <Separator className="opacity-20" /> */}
+
+        <div id="classes" className="scroll-mt-32 space-y-10">
+          <h2 className="font-display text-4xl font-bold uppercase tracking-tight text-foreground md:text-5xl">
+            Οι <span className="text-primary">Υπηρεσίες Μας</span>
+          </h2>
+          <Classes />
+        </div>
+
+        <Separator className="opacity-20" />
+
+        <div id="contact" className="scroll-mt-32">
+          <Contact14 />
         </div>
       </div>
     </section>

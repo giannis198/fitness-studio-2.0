@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <section className='space-y-4 px-[5%] py-16 md:py-24 lg:py-28'>
+    <section className='space-y-4 px-[5%] py-8 md:py-12'>
       <p className='text-lg font-bold'>Η Αποστολή μας.</p>
       <p className='text-sm font-light leading-loose lg:text-lg'>
         Η αποστολή μας είναι να προσφέρουμε έναν χώρο όπου η άσκηση κάθε ατόμου

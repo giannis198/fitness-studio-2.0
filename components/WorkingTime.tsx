@@ -23,7 +23,7 @@ const WorkingTime = () => {
   }, [])
 
   return (
-    <section className='px-[5%] py-16 md:py-24 lg:py-28'>
+    <section className='px-[5%] py-8 md:py-12'>
       <p className='text-md mb-2 font-bold tracking-widest md:text-xl'>
         Ωράριο
       </p>

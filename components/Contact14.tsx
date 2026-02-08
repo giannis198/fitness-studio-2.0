@@ -8,7 +8,7 @@ import map from '../public/map.png'
 
 export const Contact14 = () => {
   return (
-    <section id='relume' className='px-[5%] py-16 md:py-24 lg:py-28'>
+    <section id='relume' className='px-[5%] py-8 md:py-12'>
       <div className='rb-12 md:mb-18 mb-12 lg:mb-20'>
         <p className='mb-3 text-center font-semibold md:mb-4'>
           &quot;Δυνατό Σώμα, Ήρεμο Μυαλό - Με Personal Training - Pilates&quot;
@@ -31,7 +31,7 @@ export const Contact14 = () => {
               <svg
                 stroke='currentColor'
                 fill='currentColor'
-                stroke-width='0'
+                strokeWidth='0'
                 viewBox='0 0 24 24'
                 className='size-8'
                 height='1em'
@@ -68,7 +68,7 @@ export const Contact14 = () => {
               <svg
                 stroke='currentColor'
                 fill='currentColor'
-                stroke-width='0'
+                strokeWidth='0'
                 viewBox='0 0 24 24'
                 className='size-8'
                 height='1em'

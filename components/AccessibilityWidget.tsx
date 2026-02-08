@@ -10,7 +10,6 @@ import {
 } from '@/components/ui/sheet'
 
 import {
-  AccessibilityIcon,
   PersonStanding,
   ALargeSmall,
   Contrast,
@@ -51,7 +50,7 @@ function Widget() {
   return (
     <>
       <Sheet>
-        <SheetTrigger className='fixed right-5 top-1/2 rounded-full bg-blue-600 ring-2 ring-blue-100 transition-all hover:bg-blue-300'>
+        <SheetTrigger className='fixed right-5 top-1/2 z-50 rounded-full bg-blue-600 ring-2 ring-blue-100 transition-all hover:bg-blue-300'>
           <div className='hidden md:flex'>
             <PersonStanding size={64} color='white' />
           </div>
@@ -63,27 +62,17 @@ function Widget() {
           <SheetHeader className='flex items-center justify-center'>
             <SheetTitle className='mt-10 '>Μενού Προσβασιμότητας</SheetTitle>
             <SheetDescription className='mt-4 grid grid-cols-2 gap-4'>
-              <button onClick={increaseTextSize}>
-                <WidgetButton icon={ALargeSmall} text='Μεγάλο κείμενο' />
-              </button>
+              <WidgetButton onClick={increaseTextSize} icon={ALargeSmall} text='Μεγάλο κείμενο' />
 
-              <button onClick={toggleTheme}>
-                <WidgetButton icon={Contrast} text='Αντίθεση' />
-              </button>
+              <WidgetButton onClick={toggleTheme} icon={Contrast} text='Αντίθεση' />
 
-              <button onClick={increaseLetterSpacing}>
-                <WidgetButton
-                  icon={AlignHorizontalSpaceBetween}
-                  text='Αύξηση Απόστασης Κειμένου'
-                />
-              </button>
+              <WidgetButton onClick={increaseLetterSpacing}
+                icon={AlignHorizontalSpaceBetween}
+                text='Αύξηση Απόστασης Κειμένου'
+              />
 
-              <button onClick={increaseLineSpacing}>
-                <WidgetButton icon={SeparatorHorizontal} text='Υψος Γραμμής' />{' '}
-              </button>
-              <button onClick={changeTextAlignment}>
-                <WidgetButton icon={Text} text='Στοίχιση κειμένου' />
-              </button>
+              <WidgetButton onClick={increaseLineSpacing} icon={SeparatorHorizontal} text='Υψος Γραμμής' />
+              <WidgetButton onClick={changeTextAlignment} icon={Text} text='Στοίχιση κειμένου' />
 
               <WidgetButton icon={Link2Off} text='Σύνδεσμοι' />
             </SheetDescription>

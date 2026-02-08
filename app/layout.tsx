@@ -1,53 +1,62 @@
-import type { Metadata } from 'next'
-import { Montserrat } from 'next/font/google'
-import './globals.css'
-import Widget from '../components/Widget'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import { ThemeProvider } from '@/components/theme-provider'
-import { TextSizeProvider } from '@/components/textSize-provider'
-import WidgetCTA from '@/components/WidgetCTA'
-import './index.css'
-import { Analytics } from '@vercel/analytics/next'
+import type { Metadata } from "next"
+import { Syne, Manrope } from "next/font/google"
+import "./globals.css"
+import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
+import { ThemeProvider } from "@/components/theme-provider"
+import { TextSizeProvider } from "@/components/textSize-provider"
+import WidgetCTA from "@/components/WidgetCTA"
+import Widget from "@/components/AccessibilityWidget"
+import "./index.css"
+import { Analytics } from "@vercel/analytics/next"
 
-const inter = Montserrat({ subsets: ['latin'] })
+
+
+const syne = Syne({
+  subsets: ["latin"],
+  variable: "--font-syne",
+  display: "swap",
+})
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
-  title:
-    'Personal Training Θεσσαλονίκη | Personal Trainer | essentialfitness.gr',
-  description:
-    'Υπηρεσίες Personal training και Πιλάτες Θεσσαλονίκη.Αίθουσα γυμναστικής στο κέντρο της Θεσσαλονίκης | essentialfitness.gr',
-  keywords:
-    'personal training θεσσαλονικη,personal training θεσσαλονίκη, Fitness Studio Θεσσαλονικη,The Process Personal & Fitness Studio Thesslaoniki,ΔΙΑΤΡΟΦΙΚΗ ΚΑΘΟΔΗΓΗΣΗ,ΔΙΑΤΡΟΦΙΚΗ ΚΑΘΟΔΗΓΗΣΗ Θεσσαλονικη, PERSONAL AND FITNESS STUDIO thessaloniki, Personal Trainer Θεσσαλονίκη,essentialfitness γυμναστηριο, γυμναστηριο κεντρο θεσσαλονικης αιθουσα γυμναστικης κεντρο της θεσσαλονικης, essentialfitness κεντρο θεσσαλονικης, personal trainer κεντρο θεσσαλονικης, αιθουσα γυμναστικης θεσσαλονικη, Συμβουλευτική καθοδήγηση, Private training Thessaloniki,Pilates Thessaloniki,πιλάτες Θεσσαλονικη'
+  title: "Essential Fitness | Redefine Your Limits",
+  description: "Award-winning personal training and pilates studio.",
 }
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
-      <body className={`${inter.className} flex min-h-screen flex-col`}>
-        <TextSizeProvider>
-          <ThemeProvider
-            attribute='class'
-            defaultTheme='light'
-            disableTransitionOnChange
-            enableSystem
-          >
-            <div className='flex flex-grow flex-col justify-between'>
-              <Navbar />
-              <main className='flex-1 overflow-x-hidden'>
-                {children}
-                <Analytics />
-              </main>
-              <Widget />
-              <WidgetCTA />
-              <Footer />
-            </div>
-          </ThemeProvider>
-        </TextSizeProvider>
+    <html lang="en" className={`${syne.variable} ${manrope.variable}`}>
+      <body className={`${manrope.className} flex min-h-screen flex-col bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={true}
+          disableTransitionOnChange
+        >
+          <TextSizeProvider>
+              <div className="flex flex-grow flex-col justify-between">
+                <Navbar />
+                <main className="flex-1 overflow-x-hidden">
+                  {children}
+                  <Analytics />
+                </main>
+                <Widget />
+              
+                <WidgetCTA />
+                <Footer />
+              </div>
+          </TextSizeProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

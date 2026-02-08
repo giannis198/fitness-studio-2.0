@@ -1,0 +1,710 @@
+﻿{
+  "pagination": {
+    "total": 484,
+    "offset": 100,
+    "limit": 100,
+    "hasMore": true
+  },
+  "items": [
+    {
+      "name": "LaserFlow-JS-CSS",
+      "type": "registry:component",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/LaserFlow-JS-CSS"
+    },
+    {
+      "name": "LaserFlow-JS-TW",
+      "type": "registry:component",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/LaserFlow-JS-TW"
+    },
+    {
+      "name": "LaserFlow-TS-CSS",
+      "type": "registry:component",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/LaserFlow-TS-CSS"
+    },
+    {
+      "name": "LaserFlow-TS-TW",
+      "type": "registry:component",
+      "description": "Dynamic laser light that flows onto a surface, customizable effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/LaserFlow-TS-TW"
+    },
+    {
+      "name": "Antigravity-JS-CSS",
+      "type": "registry:component",
+      "description": "3D antigravity particle field that repels from the cursor with smooth motion.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Antigravity-JS-CSS"
+    },
+    {
+      "name": "Antigravity-JS-TW",
+      "type": "registry:component",
+      "description": "3D antigravity particle field that repels from the cursor with smooth motion.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Antigravity-JS-TW"
+    },
+    {
+      "name": "Antigravity-TS-CSS",
+      "type": "registry:component",
+      "description": "3D antigravity particle field that repels from the cursor with smooth motion.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Antigravity-TS-CSS"
+    },
+    {
+      "name": "Antigravity-TS-TW",
+      "type": "registry:component",
+      "description": "3D antigravity particle field that repels from the cursor with smooth motion.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Antigravity-TS-TW"
+    },
+    {
+      "name": "ASCIIText-JS-CSS",
+      "type": "registry:component",
+      "description": "Renders text with an animated ASCII background for a retro feel.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ASCIIText-JS-CSS"
+    },
+    {
+      "name": "ASCIIText-JS-TW",
+      "type": "registry:component",
+      "description": "Renders text with an animated ASCII background for a retro feel.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ASCIIText-JS-TW"
+    },
+    {
+      "name": "ASCIIText-TS-CSS",
+      "type": "registry:component",
+      "description": "Renders text with an animated ASCII background for a retro feel.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ASCIIText-TS-CSS"
+    },
+    {
+      "name": "ASCIIText-TS-TW",
+      "type": "registry:component",
+      "description": "Renders text with an animated ASCII background for a retro feel.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ASCIIText-TS-TW"
+    },
+    {
+      "name": "BlurText-JS-CSS",
+      "type": "registry:component",
+      "description": "Text starts blurred then crisply resolves for a soft-focus reveal effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/BlurText-JS-CSS"
+    },
+    {
+      "name": "BlurText-JS-TW",
+      "type": "registry:component",
+      "description": "Text starts blurred then crisply resolves for a soft-focus reveal effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/BlurText-JS-TW"
+    },
+    {
+      "name": "BlurText-TS-CSS",
+      "type": "registry:component",
+      "description": "Text starts blurred then crisply resolves for a soft-focus reveal effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/BlurText-TS-CSS"
+    },
+    {
+      "name": "BlurText-TS-TW",
+      "type": "registry:component",
+      "description": "Text starts blurred then crisply resolves for a soft-focus reveal effect.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/BlurText-TS-TW"
+    },
+    {
+      "name": "CircularText-JS-CSS",
+      "type": "registry:component",
+      "description": "Layouts characters around a circle with optional rotation animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CircularText-JS-CSS"
+    },
+    {
+      "name": "CircularText-JS-TW",
+      "type": "registry:component",
+      "description": "Layouts characters around a circle with optional rotation animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CircularText-JS-TW"
+    },
+    {
+      "name": "CircularText-TS-CSS",
+      "type": "registry:component",
+      "description": "Layouts characters around a circle with optional rotation animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CircularText-TS-CSS"
+    },
+    {
+      "name": "CircularText-TS-TW",
+      "type": "registry:component",
+      "description": "Layouts characters around a circle with optional rotation animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CircularText-TS-TW"
+    },
+    {
+      "name": "CountUp-JS-CSS",
+      "type": "registry:component",
+      "description": "Animated number counter supporting formatting and decimals.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CountUp-JS-CSS"
+    },
+    {
+      "name": "CountUp-JS-TW",
+      "type": "registry:component",
+      "description": "Animated number counter supporting formatting and decimals.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CountUp-JS-TW"
+    },
+    {
+      "name": "CountUp-TS-CSS",
+      "type": "registry:component",
+      "description": "Animated number counter supporting formatting and decimals.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CountUp-TS-CSS"
+    },
+    {
+      "name": "CountUp-TS-TW",
+      "type": "registry:component",
+      "description": "Animated number counter supporting formatting and decimals.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CountUp-TS-TW"
+    },
+    {
+      "name": "CurvedLoop-JS-CSS",
+      "type": "registry:component",
+      "description": "Flowing looping text path along a customizable curve with drag interaction.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CurvedLoop-JS-CSS"
+    },
+    {
+      "name": "CurvedLoop-JS-TW",
+      "type": "registry:component",
+      "description": "Flowing looping text path along a customizable curve with drag interaction.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CurvedLoop-JS-TW"
+    },
+    {
+      "name": "CurvedLoop-TS-CSS",
+      "type": "registry:component",
+      "description": "Flowing looping text path along a customizable curve with drag interaction.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CurvedLoop-TS-CSS"
+    },
+    {
+      "name": "CurvedLoop-TS-TW",
+      "type": "registry:component",
+      "description": "Flowing looping text path along a customizable curve with drag interaction.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/CurvedLoop-TS-TW"
+    },
+    {
+      "name": "DecryptedText-JS-CSS",
+      "type": "registry:component",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/DecryptedText-JS-CSS"
+    },
+    {
+      "name": "DecryptedText-JS-TW",
+      "type": "registry:component",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/DecryptedText-JS-TW"
+    },
+    {
+      "name": "DecryptedText-TS-CSS",
+      "type": "registry:component",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/DecryptedText-TS-CSS"
+    },
+    {
+      "name": "DecryptedText-TS-TW",
+      "type": "registry:component",
+      "description": "Hacker-style decryption cycling random glyphs until resolving to real text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/DecryptedText-TS-TW"
+    },
+    {
+      "name": "FallingText-JS-CSS",
+      "type": "registry:component",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FallingText-JS-CSS"
+    },
+    {
+      "name": "FallingText-JS-TW",
+      "type": "registry:component",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FallingText-JS-TW"
+    },
+    {
+      "name": "FallingText-TS-CSS",
+      "type": "registry:component",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FallingText-TS-CSS"
+    },
+    {
+      "name": "FallingText-TS-TW",
+      "type": "registry:component",
+      "description": "Characters fall with gravity + bounce creating a playful entrance.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FallingText-TS-TW"
+    },
+    {
+      "name": "FuzzyText-JS-CSS",
+      "type": "registry:component",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FuzzyText-JS-CSS"
+    },
+    {
+      "name": "FuzzyText-JS-TW",
+      "type": "registry:component",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FuzzyText-JS-TW"
+    },
+    {
+      "name": "FuzzyText-TS-CSS",
+      "type": "registry:component",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FuzzyText-TS-CSS"
+    },
+    {
+      "name": "FuzzyText-TS-TW",
+      "type": "registry:component",
+      "description": "Vibrating fuzzy text with controllable hover intensity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/FuzzyText-TS-TW"
+    },
+    {
+      "name": "GlitchText-JS-CSS",
+      "type": "registry:component",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GlitchText-JS-CSS"
+    },
+    {
+      "name": "GlitchText-JS-TW",
+      "type": "registry:component",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GlitchText-JS-TW"
+    },
+    {
+      "name": "GlitchText-TS-CSS",
+      "type": "registry:component",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GlitchText-TS-CSS"
+    },
+    {
+      "name": "GlitchText-TS-TW",
+      "type": "registry:component",
+      "description": "RGB split and distortion glitch effect with jitter effects.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GlitchText-TS-TW"
+    },
+    {
+      "name": "GradientText-JS-CSS",
+      "type": "registry:component",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GradientText-JS-CSS"
+    },
+    {
+      "name": "GradientText-JS-TW",
+      "type": "registry:component",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GradientText-JS-TW"
+    },
+    {
+      "name": "GradientText-TS-CSS",
+      "type": "registry:component",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GradientText-TS-CSS"
+    },
+    {
+      "name": "GradientText-TS-TW",
+      "type": "registry:component",
+      "description": "Animated gradient sweep across live text with speed and color control.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/GradientText-TS-TW"
+    },
+    {
+      "name": "RotatingText-JS-CSS",
+      "type": "registry:component",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/RotatingText-JS-CSS"
+    },
+    {
+      "name": "RotatingText-JS-TW",
+      "type": "registry:component",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/RotatingText-JS-TW"
+    },
+    {
+      "name": "RotatingText-TS-CSS",
+      "type": "registry:component",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/RotatingText-TS-CSS"
+    },
+    {
+      "name": "RotatingText-TS-TW",
+      "type": "registry:component",
+      "description": "Cycles through multiple phrases with 3D rotate / flip transitions.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/RotatingText-TS-TW"
+    },
+    {
+      "name": "ScrambledText-JS-CSS",
+      "type": "registry:component",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrambledText-JS-CSS"
+    },
+    {
+      "name": "ScrambledText-JS-TW",
+      "type": "registry:component",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrambledText-JS-TW"
+    },
+    {
+      "name": "ScrambledText-TS-CSS",
+      "type": "registry:component",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrambledText-TS-CSS"
+    },
+    {
+      "name": "ScrambledText-TS-TW",
+      "type": "registry:component",
+      "description": "Detects cursor position and applies a distortion effect to text.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrambledText-TS-TW"
+    },
+    {
+      "name": "ScrollFloat-JS-CSS",
+      "type": "registry:component",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollFloat-JS-CSS"
+    },
+    {
+      "name": "ScrollFloat-JS-TW",
+      "type": "registry:component",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollFloat-JS-TW"
+    },
+    {
+      "name": "ScrollFloat-TS-CSS",
+      "type": "registry:component",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollFloat-TS-CSS"
+    },
+    {
+      "name": "ScrollFloat-TS-TW",
+      "type": "registry:component",
+      "description": "Text gently floats / parallax shifts on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollFloat-TS-TW"
+    },
+    {
+      "name": "ScrollReveal-JS-CSS",
+      "type": "registry:component",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollReveal-JS-CSS"
+    },
+    {
+      "name": "ScrollReveal-JS-TW",
+      "type": "registry:component",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollReveal-JS-TW"
+    },
+    {
+      "name": "ScrollReveal-TS-CSS",
+      "type": "registry:component",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollReveal-TS-CSS"
+    },
+    {
+      "name": "ScrollReveal-TS-TW",
+      "type": "registry:component",
+      "description": "Text gently unblurs and reveals on scroll.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollReveal-TS-TW"
+    },
+    {
+      "name": "ScrollVelocity-JS-CSS",
+      "type": "registry:component",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollVelocity-JS-CSS"
+    },
+    {
+      "name": "ScrollVelocity-JS-TW",
+      "type": "registry:component",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollVelocity-JS-TW"
+    },
+    {
+      "name": "ScrollVelocity-TS-CSS",
+      "type": "registry:component",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollVelocity-TS-CSS"
+    },
+    {
+      "name": "ScrollVelocity-TS-TW",
+      "type": "registry:component",
+      "description": "Text marquee animatio - speed and distortion scale with user's scroll velocity.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ScrollVelocity-TS-TW"
+    },
+    {
+      "name": "ShinyText-JS-CSS",
+      "type": "registry:component",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ShinyText-JS-CSS"
+    },
+    {
+      "name": "ShinyText-JS-TW",
+      "type": "registry:component",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ShinyText-JS-TW"
+    },
+    {
+      "name": "ShinyText-TS-CSS",
+      "type": "registry:component",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ShinyText-TS-CSS"
+    },
+    {
+      "name": "ShinyText-TS-TW",
+      "type": "registry:component",
+      "description": "Metallic sheen sweeps across text producing a reflective highlight.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/ShinyText-TS-TW"
+    },
+    {
+      "name": "SplitText-JS-CSS",
+      "type": "registry:component",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/SplitText-JS-CSS"
+    },
+    {
+      "name": "SplitText-JS-TW",
+      "type": "registry:component",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/SplitText-JS-TW"
+    },
+    {
+      "name": "SplitText-TS-CSS",
+      "type": "registry:component",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/SplitText-TS-CSS"
+    },
+    {
+      "name": "SplitText-TS-TW",
+      "type": "registry:component",
+      "description": "Splits text into characters / words for staggered entrance animation.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/SplitText-TS-TW"
+    },
+    {
+      "name": "TextCursor-JS-CSS",
+      "type": "registry:component",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextCursor-JS-CSS"
+    },
+    {
+      "name": "TextCursor-JS-TW",
+      "type": "registry:component",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextCursor-JS-TW"
+    },
+    {
+      "name": "TextCursor-TS-CSS",
+      "type": "registry:component",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextCursor-TS-CSS"
+    },
+    {
+      "name": "TextCursor-TS-TW",
+      "type": "registry:component",
+      "description": "Make any text element follow your cursor, leaving a trail of copies behind it.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextCursor-TS-TW"
+    },
+    {
+      "name": "TextPressure-JS-CSS",
+      "type": "registry:component",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextPressure-JS-CSS"
+    },
+    {
+      "name": "TextPressure-JS-TW",
+      "type": "registry:component",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextPressure-JS-TW"
+    },
+    {
+      "name": "TextPressure-TS-CSS",
+      "type": "registry:component",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextPressure-TS-CSS"
+    },
+    {
+      "name": "TextPressure-TS-TW",
+      "type": "registry:component",
+      "description": "Characters scale / warp interactively based on pointer pressure zone.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextPressure-TS-TW"
+    },
+    {
+      "name": "TextType-JS-CSS",
+      "type": "registry:component",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextType-JS-CSS"
+    },
+    {
+      "name": "TextType-JS-TW",
+      "type": "registry:component",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextType-JS-TW"
+    },
+    {
+      "name": "TextType-TS-CSS",
+      "type": "registry:component",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextType-TS-CSS"
+    },
+    {
+      "name": "TextType-TS-TW",
+      "type": "registry:component",
+      "description": "Typewriter effect with blinking cursor and adjustable typing cadence.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TextType-TS-TW"
+    },
+    {
+      "name": "TrueFocus-JS-CSS",
+      "type": "registry:component",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TrueFocus-JS-CSS"
+    },
+    {
+      "name": "TrueFocus-JS-TW",
+      "type": "registry:component",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TrueFocus-JS-TW"
+    },
+    {
+      "name": "TrueFocus-TS-CSS",
+      "type": "registry:component",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TrueFocus-TS-CSS"
+    },
+    {
+      "name": "TrueFocus-TS-TW",
+      "type": "registry:component",
+      "description": "Applies dynamic blur / clarity based over a series of words in order.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/TrueFocus-TS-TW"
+    },
+    {
+      "name": "VariableProximity-JS-CSS",
+      "type": "registry:component",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/VariableProximity-JS-CSS"
+    },
+    {
+      "name": "VariableProximity-JS-TW",
+      "type": "registry:component",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/VariableProximity-JS-TW"
+    },
+    {
+      "name": "VariableProximity-TS-CSS",
+      "type": "registry:component",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/VariableProximity-TS-CSS"
+    },
+    {
+      "name": "VariableProximity-TS-TW",
+      "type": "registry:component",
+      "description": "Letter styling changes continuously with pointer distance mapping.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/VariableProximity-TS-TW"
+    },
+    {
+      "name": "Shuffle-JS-CSS",
+      "type": "registry:component",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Shuffle-JS-CSS"
+    },
+    {
+      "name": "Shuffle-JS-TW",
+      "type": "registry:component",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Shuffle-JS-TW"
+    },
+    {
+      "name": "Shuffle-TS-CSS",
+      "type": "registry:component",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Shuffle-TS-CSS"
+    },
+    {
+      "name": "Shuffle-TS-TW",
+      "type": "registry:component",
+      "description": "Animated text reveal where characters shuffle before settling.",
+      "registry": "@react-bits",
+      "addCommandArgument": "@react-bits/Shuffle-TS-TW"
+    }
+  ]
+}

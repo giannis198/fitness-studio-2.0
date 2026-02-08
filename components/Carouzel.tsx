@@ -35,7 +35,7 @@ const Carouzel = () => {
           βασίζεται στις Essential ανάγκες.
         </p>
         <Link href='https://essentialfitnessskg.setmore.com/book'>
-          <Button className='hidden bg-orange-800 text-white hover:bg-orange-950 md:block'>
+          <Button className='hidden bg-primary text-primary-foreground hover:bg-primary/90 md:block'>
             Book now
           </Button>
         </Link>
